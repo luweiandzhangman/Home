@@ -3,7 +3,6 @@ apply from: 'maven_push.gradle'
 // JitPack Maven
 apply plugin: 'com.github.dcendents.android-maven'
 // Your Group
-//group='com.github.luwei'
 group='com.github.luweiandzhangman'
 android {
     compileSdkVersion 26

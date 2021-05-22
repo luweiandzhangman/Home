@@ -13,8 +13,8 @@ uploadArchives {
     repositories {
         mavenDeployer {
             pom.version = '1.0.0' // 版本号
-            pom.artifactId = 'cart' // 项目名称（通常为类库模块名称，也可以任意）
-            pom.groupId = 'com.hfy.cart' // 唯一标识（通常为模块包名，也可以任意）
+            pom.artifactId = 'model_home' // 项目名称（通常为类库模块名称，也可以任意）
+            pom.groupId = 'com.lw.model_home' // 唯一标识（通常为模块包名，也可以任意）
 
             //指定快照版本 maven仓库url， todo 请改为自己的maven服务器地址、账号密码
             snapshotRepository(url: 'http://xxx/maven-snapshots/') {
